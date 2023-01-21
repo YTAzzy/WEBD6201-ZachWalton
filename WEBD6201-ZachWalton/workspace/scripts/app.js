@@ -8,6 +8,14 @@
         console.log("App Started!")
     }
 
+    function DisplayHomePage(){
+         let AboutUsButton = document.getElementById("AboutUsBtn");
+         AboutUsButton.addEventListener("click", function()
+        {
+         location.href = "about.html"
+        });
+    }
+
     window.addEventListener( "load", Start)
 
 })();
