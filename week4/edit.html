@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+
+  <title>Edit Contact</title>
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">WEBD6201</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="./services.html">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="contact.html" ><i class="fa-solid fa-envelope"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>Edit Contact</h1>
+  <div class = "row justify-content-lg-center g-3">
+    <form class="col-lg-6 col-md-6 col-sm-6">
+
+      <div class="input-group mb-3">
+        <span class="input-group-text">Full Name</span>
+        <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name Input" aria-label="Full Name Input" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Contact Number</span>
+        <input id="contactNumber" name="contactNumber" type="tel" class="form-control" aria-describedby="Contact Number Input" aria-label="Contact Number Input" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Email address</span>
+        <input id="emailAddress" name="emailAddress" type="email" class="form-control"aria-describedby="Email Address Input" aria-label="Email Address Input" required>
+      </div>
+      <div class="mb-3 form-check">
+        <input id="subscribeCheckbox" type="checkbox" class="form-check-input">
+        <label class="form-check-label" for="subscribeCheckbox">Subscribe to our contact list</label> </div>
+      <button id="sendButton" type="submit" class="btn btn-primary">
+        <i class="fa fa-envelope fa-lg"></i>Submit</button>
+      <button id="cancelButton" type="reset" class="btn btn-warning"> <i class="fa fa-undo fa-lg"></i>Cancel</button>
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
