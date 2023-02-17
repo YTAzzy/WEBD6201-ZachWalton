@@ -1,0 +1,28 @@
+{
+  "users" : [
+    {
+      "DisplayName" : "Sans Undertale",
+      "EmailAddress" : "sans@home.ca",
+      "Username" : "funnybone",
+      "Password" : "123456"
+    },
+
+
+    {
+      "DisplayName" : "Isaac McMillan",
+      "EmailAddress" : "isaac@chest.ca",
+      "Username" : "cowonatrashfarm",
+      "Password" : "yousucker"
+    },
+
+
+    {
+      "DisplayName" : "Hornet",
+      "EmailAddress" : "weaver@hallownest.ca",
+      "Username" : "gitgud",
+      "Password" : "shaw"
+    }
+
+  ],
+
+}
